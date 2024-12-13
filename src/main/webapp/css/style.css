@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Kaisei Tokumin", serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 860px;
+	min-width: 480px;
+	min-height: 100dvh;
+	margin: 0 auto;
+	padding: 20px 30px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #f9f9f9;
+}
